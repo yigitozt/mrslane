@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class NetworkManager : Photon.MonoBehaviour {
+public class NetworkController : Photon.MonoBehaviour {
 	// Use this for initialization
-	public GameObject object1;
 	private PhotonView myPhotonView;
 	
 	void Start () {
@@ -33,25 +32,24 @@ public class NetworkManager : Photon.MonoBehaviour {
 		myPhotonView = player.GetComponent<PhotonView>();
 		
 		player.AddComponent<PlayerMovement> ();
-		player.AddComponent<PlayerSkills> ();
+		player.AddComponent<PlayerSkill> ();
 		
 		player.transform.position = new Vector3(0,0, -PhotonNetwork.countOfPlayers * 1.3f);
 		
 		if (PhotonNetwork.countOfPlayers > 1  && PhotonNetwork.countOfPlayers < 3)
 		{
-			this.myPhotonView.RPC("StartGame", PhotonTargets.All);
+//			this.myPhotonView.RPC("StartGame", PhotonTargets.All);
 		}
 		
-		if(PhotonNetwork.countOfPlayers == 1)
-		{
-			GameObject startObject = PhotonNetwork.Instantiate ("StartingObject", new Vector3(8,2,0), Quaternion.identity, 0);
-		}
-		else if(PhotonNetwork.countOfPlayers == 2)
-		{
-			PlayerMovement.isDonkey = true;
-			GameObject witch = PhotonNetwork.Instantiate ("Witch", new Vector3(-80,8,0), Quaternion.identity, 0);
-			witch.AddComponent<WitchControl>();
-		}
+//		if(PhotonNetwork.countOfPlayers == 1)
+//		{
+//			GameObject startObject = PhotonNetwork.Instantiate ("StartingObject", new Vector3(8,2,0), Quaternion.identity, 0);
+//		}
+//		else if(PhotonNetwork.countOfPlayers == 2)
+//		{
+//			GameObject witch = PhotonNetwork.Instantiate ("Witch", new Vector3(-80,8,0), Quaternion.identity, 0);
+//			witch.AddComponent<WitchControl>();
+//		}
 		
 		//		PhotonNetwork.SetMasterClient(PhotonNetwork.player);
 		//		PhotonNetwork.Disconnect();

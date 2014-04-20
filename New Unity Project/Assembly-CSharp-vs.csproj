@@ -116,8 +116,10 @@
      <Compile Include="Assets\Scripts\Level\NetworkController.cs" />
      <Compile Include="Assets\Scripts\Level\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Level\PlayerName.cs" />
+     <Compile Include="Assets\Scripts\Level\PlayerNetwork.cs" />
      <Compile Include="Assets\Scripts\Level\PlayerSkill.cs" />
      <Compile Include="Assets\Scripts\Level\PlayerTriggerNetwork.cs" />
+     <Compile Include="Assets\Scripts\Level\Witch\WitchMovement.cs" />
      <Compile Include="Assets\U3DXT\Examples\KitchenSink\KitchenSink.cs" />
      <Compile Include="Assets\U3DXT\Examples\bluetooth\iBeaconTest\iBeaconTest.cs" />
      <Compile Include="Assets\U3DXT\Examples\core\GUIBasics\GUIBasics.cs" />

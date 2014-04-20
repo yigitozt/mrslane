@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{5A0769DA-25DA-A68D-BA58-6ED404CB536B}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;ENABLE_DUCK_TYPING</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoHub\Editor\PunStartup.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PUNGuide_M2H\zSharedAssets\Editor\FixBuildSettings.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\AccountService.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\PhotonConverter.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\PhotonEditor.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\PhotonViewHandler.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\PhotonViewInspector.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\PhotonViewPrefabApply.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\ServerSettingsInspector.cs" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTGameKit7.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTSpriteKit_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTMultipeer.xml" />
+     <None Include="Assets\U3DXT\Examples\speech\README.txt" />
+     <None Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\marcopolo-readme.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTSpriteKit.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTIAP_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTCoreImage.xml" />
+     <None Include="Assets\Plugins\release_history.txt" />
+     <None Include="Assets\U3DXT\Examples\gamekit7\GKMeeting\README.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTMediaPlayer.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTMaps.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTGameController_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTSpeech.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTBluetooth.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTGameKit7_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTSpeech_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTCoreExtras_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTCoreExtras.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTMultipeer_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTSocial.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTSocial_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTMaps_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTIAP.xml" />
+     <None Include="Assets\Photon Unity Networking\Demos\DemoBoxes\Resources\eurof_tt.txt" />
+     <None Include="Assets\U3DXT\Examples\social\SocialTest\README.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTCore.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTPersonal.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTCoreImage_HL.xml" />
+     <None Include="Assets\U3DXT\Examples\iap\IAPTest\README.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTMediaPlayer_HL.xml" />
+     <None Include="Assets\U3DXT\CHANGELOG.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTGameController.xml" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Photon Unity Networking\readme.txt" />
+     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTCore_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTBluetooth_HL.xml" />
+     <None Include="Assets\Photon Unity Networking\changelog.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTPersonal_HL.xml" />
+ <Reference Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\Newtonsoft.Json">
+ <HintPath>Assets\Photon Unity Networking\Editor\PhotonNetwork\Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\Photon3Unity3D">
+ <HintPath>Assets\Plugins\Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Editor\U3DXTEditor">
+ <HintPath>Assets\U3DXT\Editor\U3DXTEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTBluetooth">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTBluetooth.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTBluetooth_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTBluetooth_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTCore">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTCore.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTCore_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTCore_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTCoreExtras">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTCoreExtras.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTCoreExtras_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTCoreExtras_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTCoreImage">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTCoreImage.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTCoreImage_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTCoreImage_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTGameController">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTGameController.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTGameController_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTGameController_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTGameKit7">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTGameKit7.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTGameKit7_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTGameKit7_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTIAP">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTIAP.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTIAP_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTIAP_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTMaps">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTMaps.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTMaps_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTMaps_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTMediaPlayer">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTMediaPlayer.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTMediaPlayer_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTMediaPlayer_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTMultipeer">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTMultipeer.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTMultipeer_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTMultipeer_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTPersonal">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTPersonal.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTPersonal_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTPersonal_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTSocial">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTSocial.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTSocial_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTSocial_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTSpeech">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTSpeech.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTSpeech_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTSpeech_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTSpriteKit">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTSpriteKit.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTSpriteKit_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTSpriteKit_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs">
+ <HintPath>\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions">
+ <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions">
+ <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions">
+ <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.unityproj">
+      <Project>{1753851C-AE59-909A-15AB-E3FFE34BC5A0}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

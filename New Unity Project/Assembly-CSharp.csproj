@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoBoxes\OnAwakePhysicsSettings.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoBoxes\TestGuiInstantiate.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoFriendsAndCustomAuth\GUICustomAuth.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoFriendsAndCustomAuth\GUIFriendFinding.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoFriendsAndCustomAuth\GUIFriendsInRoom.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoHub\MoveCam.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoSynchronization\CubeExtra.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoSynchronization\CubeInter.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoSynchronization\CubeLerp.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoSynchronization\IELdemo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoWorker\Scripts\Game\Player\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoWorker\Scripts\Game\Player\ThirdPersonController.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoWorker\Scripts\Game\Player\ThirdPersonNetwork.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoWorker\Scripts\WorkerInGame.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoWorker\Scripts\WorkerMenu.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\AudioRpc.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\ClickDetector.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\GameLogic.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\Monstergame\Resources\Scripts\myThirdPersonController.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\NetworkCharacter.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\RandomMatchmaker.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PUNGuide_M2H\_MenuScene\BackToMainMenu.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PUNGuide_M2H\_MenuScene\MenuScript.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PUNGuide_M2H\_MenuScene\Rotator.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PUNGuide_M2H\_Tutorial 1\Scripts\Connect1A.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PUNGuide_M2H\_Tutorial 1\Scripts\Connect1B.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PUNGuide_M2H\_Tutorial 1\Scripts\Connect1C.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PUNGuide_M2H\_Tutorial 2\C#\Tutorial_2A1.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PUNGuide_M2H\_Tutorial 2\C#\Tutorial_2A2.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PUNGuide_M2H\_Tutorial 2\C#\Tutorial_2A3.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PUNGuide_M2H\_Tutorial 2\C#\Tutorial_2B_Playerscript.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PUNGuide_M2H\_Tutorial 2\C#\Tutorial_2B_Spawnscript.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\CustomTypes.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Enums.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Extensions.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\FriendInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\LoadbalancingPeer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonClasses.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonLagSimulationGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonPlayer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStatsGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PingCloudRegions.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RPC.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Room.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RoomInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RpcIndexComponent.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\ServerSettings.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\SocketUdp.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ConnectAndJoinRandom.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InRoomChat.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InputToEvent.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ManualPhotonViewAllocator.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\MoveByKeys.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnAwakeUsePhotonView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickDestroy.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickInstantiate.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickLoadSomething.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PointedAtGameObjectInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ServerTime.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SmoothSyncMovement.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\TestDontDestroyOnLoad.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\TimeKeeper.cs" />
+     <Compile Include="Assets\Scripts\DemoCamMove.cs" />
+     <Compile Include="Assets\Scripts\Level\NetworkController.cs" />
+     <Compile Include="Assets\U3DXT\Examples\KitchenSink\KitchenSink.cs" />
+     <Compile Include="Assets\U3DXT\Examples\bluetooth\iBeaconTest\iBeaconTest.cs" />
+     <Compile Include="Assets\U3DXT\Examples\core\GUIBasics\GUIBasics.cs" />
+     <Compile Include="Assets\U3DXT\Examples\core\WebViewTest\WebViewTest.cs" />
+     <Compile Include="Assets\U3DXT\Examples\coreextras\AssetLibraryTest\AssetLibraryTest.cs" />
+     <Compile Include="Assets\U3DXT\Examples\coreextras\iCloudTest\iCloudTest.cs" />
+     <Compile Include="Assets\U3DXT\Examples\gamekit7\GKMeeting\GKMeetingMain.cs" />
+     <Compile Include="Assets\U3DXT\Examples\gamekit7\GKMeeting\Meeting.cs" />
+     <Compile Include="Assets\U3DXT\Examples\gamekit7\GKMeeting\MeetingParticipant.cs" />
+     <Compile Include="Assets\U3DXT\Examples\gamekit7\GameKitBasics\GameKitBasics.cs" />
+     <Compile Include="Assets\U3DXT\Examples\iap\CrossPromotion\CrossPromoteExample.cs" />
+     <Compile Include="Assets\U3DXT\Examples\iap\IAPTest\IAPTest.cs" />
+     <Compile Include="Assets\U3DXT\Examples\maps\Annotation.cs" />
+     <Compile Include="Assets\U3DXT\Examples\maps\MapsTest.cs" />
+     <Compile Include="Assets\U3DXT\Examples\mediaplayer\StreamingMoviePlayer\StreamingMoviePlayer.cs" />
+     <Compile Include="Assets\U3DXT\Examples\multipeer\ShareNearMe\client\ShareNearMeClient.cs" />
+     <Compile Include="Assets\U3DXT\Examples\multipeer\ShareNearMe\server\ShareNearMeServer.cs" />
+     <Compile Include="Assets\U3DXT\Examples\personal\PersonalTest\PeoplePickerNavigationControllerDelegate.cs" />
+     <Compile Include="Assets\U3DXT\Examples\personal\PersonalTest\PersonalTest.cs" />
+     <Compile Include="Assets\U3DXT\Examples\social\MailAnything\MailAnything.cs" />
+     <Compile Include="Assets\U3DXT\Examples\social\SocialTest\SocialTest.cs" />
+     <Compile Include="Assets\U3DXT\Examples\speech\ComboBox.cs" />
+     <Compile Include="Assets\U3DXT\Examples\speech\SpeechTest.cs" />
+     <Compile Include="Assets\U3DXT\Examples\speech\WebKitToUnity\WebKitToUnity.cs" />
+     <Compile Include="Assets\U3DXT\Prefabs\SupportFiles\iap\StoreProductViewController.cs" />
+     <Compile Include="Assets\U3DXT\Prefabs\SupportFiles\mediaplayer\StreamingIntroMovie.cs" />
+     <Compile Include="Assets\U3DXT\Prefabs\SupportFiles\multipeer\MultipeerAdvertiser.cs" />
+     <Compile Include="Assets\U3DXT\Prefabs\SupportFiles\multipeer\MultipeerBrowser.cs" />
+     <Compile Include="Assets\U3DXT\Prefabs\SupportFiles\social\FacebookGameObject.cs" />
+     <Compile Include="Assets\U3DXT\Prefabs\SupportFiles\uikit\WebViewGameObject.cs" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTGameKit7.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTSpriteKit_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTMultipeer.xml" />
+     <None Include="Assets\U3DXT\Examples\speech\README.txt" />
+     <None Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\marcopolo-readme.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTSpriteKit.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTIAP_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTCoreImage.xml" />
+     <None Include="Assets\Plugins\release_history.txt" />
+     <None Include="Assets\U3DXT\Examples\gamekit7\GKMeeting\README.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTMediaPlayer.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTMaps.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTGameController_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTSpeech.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTBluetooth.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTGameKit7_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTSpeech_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTCoreExtras_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTCoreExtras.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTMultipeer_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTSocial.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTSocial_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTMaps_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTIAP.xml" />
+     <None Include="Assets\Photon Unity Networking\Demos\DemoBoxes\Resources\eurof_tt.txt" />
+     <None Include="Assets\U3DXT\Examples\social\SocialTest\README.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTCore.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTPersonal.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTCoreImage_HL.xml" />
+     <None Include="Assets\U3DXT\Examples\iap\IAPTest\README.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTMediaPlayer_HL.xml" />
+     <None Include="Assets\U3DXT\CHANGELOG.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTGameController.xml" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Photon Unity Networking\readme.txt" />
+     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTCore_HL.xml" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTBluetooth_HL.xml" />
+     <None Include="Assets\Photon Unity Networking\changelog.txt" />
+     <None Include="Assets\U3DXT\Plugins\U3DXTPersonal_HL.xml" />
+ <Reference Include="Assets\Plugins\Photon3Unity3D">
+ <HintPath>Assets\Plugins\Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTBluetooth">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTBluetooth.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTBluetooth_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTBluetooth_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTCore">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTCore.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTCore_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTCore_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTCoreExtras">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTCoreExtras.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTCoreExtras_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTCoreExtras_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTCoreImage">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTCoreImage.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTCoreImage_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTCoreImage_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTGameController">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTGameController.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTGameController_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTGameController_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTGameKit7">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTGameKit7.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTGameKit7_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTGameKit7_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTIAP">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTIAP.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTIAP_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTIAP_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTMaps">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTMaps.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTMaps_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTMaps_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTMediaPlayer">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTMediaPlayer.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTMediaPlayer_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTMediaPlayer_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTMultipeer">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTMultipeer.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTMultipeer_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTMultipeer_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTPersonal">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTPersonal.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTPersonal_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTPersonal_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTSocial">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTSocial.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTSocial_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTSocial_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTSpeech">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTSpeech.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTSpeech_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTSpeech_HL.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTSpriteKit">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTSpriteKit.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\U3DXT\Plugins\U3DXTSpriteKit_HL">
+ <HintPath>Assets\U3DXT\Plugins\U3DXTSpriteKit_HL.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

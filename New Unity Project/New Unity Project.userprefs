@@ -1,10 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Level/Witch/WitchMovement.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Level/NetworkController.cs">
     <Files>
-      <File FileName="Assets/Scripts/Level/Witch/WitchMovement.cs" Line="14" Column="3" />
-      <File FileName="Assets/Scripts/Level/PlayerMovement.cs" Line="42" Column="34" />
       <File FileName="Assets/Scripts/Level/Witch/WitchMovement.cs" Line="18" Column="1" />
+      <File FileName="Assets/Scripts/Level/PlayerMovement.cs" Line="156" Column="4" />
+      <File FileName="Assets/Scripts/Level/PlayerTriggerNetwork.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Level/PlayerSkill.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Level/PlayerNetwork.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Level/NetworkController.cs" Line="41" Column="56" />
+      <File FileName="Assets/Scripts/AllSkillsTexture.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MainMenuControl.cs" Line="18" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -4,6 +4,7 @@ using System.Collections;
 public class NetworkController : Photon.MonoBehaviour {
 	// Use this for initialization
 	private PhotonView myPhotonView;
+	GameObject witch;
 	
 	void Start () {
 		PhotonNetwork.ConnectUsingSettings ("alpha 0.1");
@@ -27,7 +28,8 @@ public class NetworkController : Photon.MonoBehaviour {
 	}
 	
 	void OnJoinedRoom(){
-		
+
+
 		GameObject player = PhotonNetwork.Instantiate ("Player1", Vector3.zero, Quaternion.identity, 0);
 		myPhotonView = player.GetComponent<PhotonView>();
 		
@@ -35,11 +37,16 @@ public class NetworkController : Photon.MonoBehaviour {
 		player.AddComponent<PlayerSkill> ();
 		
 		player.transform.position = new Vector3(0,0, -PhotonNetwork.countOfPlayers * 1.3f);
-		
-		if (PhotonNetwork.countOfPlayers > 1  && PhotonNetwork.countOfPlayers < 3)
+	
+		if(PhotonNetwork.countOfPlayers == 2)
 		{
-//			this.myPhotonView.RPC("StartGame", PhotonTargets.All);
+			witch = PhotonNetwork.Instantiate ("Witch", new Vector3(-30, 0, -1.12f), Quaternion.identity, 0);
 		}
+		else if(PhotonNetwork.countOfPlayers < 2 && witch)
+		{
+			PhotonNetwork.Destroy(witch);
+		}
+
 		
 //		if(PhotonNetwork.countOfPlayers == 1)
 //		{

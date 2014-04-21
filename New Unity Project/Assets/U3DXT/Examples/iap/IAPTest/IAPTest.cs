@@ -45,6 +45,21 @@ public class IAPTest : MonoBehaviour {
 			IAPXT.Init(new string[] {premiumProductID ,coinsProductID});
 		}
 	}
+
+	void Update()
+	{
+		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+		RaycastHit hit ;
+		if(Input.GetMouseButton(0))
+		{
+			if (Physics.Raycast (ray, out hit)) {
+				if(hit.transform.name == "buttonBack")
+				{
+					Application.LoadLevel(0);
+				}
+			}
+		}
+	}
 	
 	void OnDestroy() {
 		if (CoreXT.IsDevice) {

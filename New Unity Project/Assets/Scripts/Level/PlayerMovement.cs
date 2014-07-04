@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Camera.main.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 2, gameObject.transform.position.z - 150);
+		Camera.main.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 7, gameObject.transform.position.z - 150);
 		CharacterController controller = GetComponent<CharacterController> ();
 
 
